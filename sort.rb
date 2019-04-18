@@ -1,2 +1,4 @@
 numbers = [19, 3, 81, 1, 24]
-puts numbers
+p numbers
+
+p numbers.sort{|x, y| x <=> y}
